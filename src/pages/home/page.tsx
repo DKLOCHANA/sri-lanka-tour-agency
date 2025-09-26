@@ -132,10 +132,17 @@ export default function Home() {
         {/* Left Bottom Content */}
         <div className="absolute bottom-16 left-0 text-left text-white z-20 max-w-4xl px-6 lg:px-8">
           <h1 className="text-7xl font-bold mb-4 leading-tight font-serif text-warning-400">
-            Discover <span className="text-white">Pearl of the Indian Ocean</span>
+            <span className="block text-4xl xs:text-5xl sm:text-6xl md:text-7xl font-bold leading-tight font-serif text-warning-400 break-words whitespace-pre-line">
+              Discover
+              <br className="block sm:hidden" />
+              <span className="text-white">Pearl of the Indian Ocean</span>
+            </span>
           </h1>
           <p className="text-2xl mb-4 text-white max-w-2xl leading-relaxed">
-            • Ancient Kingdoms • Pristine Beaches • Misty Mountains • Wildlife Safaris
+            <span className="block text-base xs:text-lg sm:text-xl md:text-2xl">
+              • Ancient Kingdoms • Pristine Beaches<br />
+              • Misty Mountains • Wildlife Safaris
+            </span>
           </p>
 
           {/* White Divider */}
