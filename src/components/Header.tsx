@@ -62,7 +62,7 @@ function Header({ scrollY }: HeaderProps) {
                     {/* Mobile menu icon */}
                     <div className="md:hidden flex items-center">
                         <button
-                            className="text-3xl text-white  "
+                            className={`text-3xl ${scrollY > 100 ? 'text-black' : 'text-white'}  `}
                             aria-label="Open menu"
                             onClick={() => setMenuOpen(!menuOpen)}
                         >
